@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine On
+  RewriteRule ^adult_exam.html$ index.php/?s=index/index/adult_exam.html [QSA,PT,L]
+  RewriteRule ^diy_exam.html$ index.php/?s=index/index/diy_exam.html [QSA,PT,L]
+  RewriteRule ^wechat.html$ index.php/?s=index/index/wechat.html [QSA,PT,L]
+  RewriteRule ^wx_sample.html$ index.php/?s=/index/wechat/index.html [QSA,PT,L]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>

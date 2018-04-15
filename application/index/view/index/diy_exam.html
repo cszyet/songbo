@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>上海嵩博自考学院——上海自考学历｜上海自考本科｜上海网络本科｜上海网络专科</title>
+    <meta name="keywords" content="学历、自考学历、自考学院、自考本科、自考专科、上海嵩博学历" />
+    <meta name="description" content="嵩博学院是自考、网络学历指定助学单位，常年开设业余制自考、网络专本科课程。无学历、无年龄限制，考试院“0利率”助学贷款，12个月轻松取得学历证书。咨询热线：400-820-1728">
+    <meta content="all" name="robots" />
+    <meta name="Copyright" content="/, 版权所有,末经许可禁止转载" />
+    <link rel="stylesheet" href="/static/css/base.css"/>
+    <link rel="stylesheet" href="/static/css/private.css"/>
+    <style type="text/css">
+        body,td,th {
+            font-family: Tahoma, Helvetica, Arial, \5b8b\4f53, sans-serif;
+        }
+    </style>
+    <script type="application/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="application/javascript" src="/static/js/common.js"></script>
+    <script type="application/javascript" src="/static/js/diy_exam.js"></script>
+    <script type="text/javascript">
+        function CheckForm(){
+            var name=document.getElementById("Orders_Name");
+            var tel=document.getElementById("Orders_Tel");
+            //var courses=document.getElementById("Courses_id");
+            var RegEmpty=/^\s*$/;  //匹配所有空字符
+            var RegMobile=/^1[3458]\d{9}$/; //匹配当前国内手机号
+            var RegUsername=/[a-zA-Z\u4E00-\u9FA5]+/; //匹配所有汉字和英文字母
+
+            if(RegEmpty.test(name.value)){
+                alert('请填写姓名');
+                name.focus();
+                return false;
+            }else if(RegUsername.test(name.value.replace(/(^\s*)|(\s*$)/g,""))==false){ //去掉字符串两侧空字符，并验证是否是汉字或者字母
+                alert('用户名必须为汉字或者英文字母！')
+                name.focus();
+                return false;
+            }
+            if(RegEmpty.test(tel.value)){
+                alert('请填写手机号');
+                tel.focus();
+                return false;
+            }else if(RegMobile.test(tel.value.replace(/(^\s*)|(\s*$)/g,""))==false){ //去掉字符串两侧空字符，并验证是否是11为手机号
+                alert('请输入11为手机号码！');
+                tel.focus();
+                return false;
+            }
+            document.getElementById('btn_submit').disabled='disabled';
+            return true;
+        }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body  class="loading">
+<div class="nav" id="nav">
+    <div class="w1000">
+        <div class="logo"><img src="/static/images/logo.png" alt=""/></div>
+        <div class="nav_bar">
+            <ul>
+                <li><a href="/index.html">学历首页</a></li>
+                <li><a class="nav_bar_active" href="#">成人自考</a></li>
+                <li><a href="/adult_exam.html">成人高考</a></li>
+                <li><a href="javascript:void(0);" onclick="open_qq()">远程教育</a></li>
+                <li><a href="javascript:void(0);" onclick="open_qq()">函授学历</a></li>
+                <li><a href="javascript:void(0);" onclick="open_qq()">合作院校</a></li>
+                <li><a href="javascript:void(0);" onclick="open_qq()">热门专业</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="wrap wrap_bg02" style="padding-top: 45px">
+    <img src="/static/images/banner.jpg" alt="banner"/>
+</div>
+<div class="wrap wrap_bg02">
+    <img src="/static/images/kv_01.jpg"/>
+</div>
+<div class="wrap wrap_bg03">
+    <p class="kvBtn" style="background-color: #f8f8f8;padding: 15px 0 25px 0;margin: 0;"><a onclick="open_qq()" href="javascript:void(0);" class=" kvBtn03">了解无压力拿名校本科</a></p>
+</div>
+<div class="wrap wrap_bg04">
+    <div class="contain">
+        <img src="/static/images/kv_02.jpg"/>
+    </div>
+</div>
+<div class="wrap wrap_bg04">
+    <div class="contain" style=" background-color: transparent">
+        <ul class="sgList">
+            <li id="f_li"><a onclick="open_qq()" href="javascript:void(0);"><img src="/static/images/school_01.png" alt="名校Logo"/> </a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);"><img src="/static/images/school_02.png" alt="名校Logo"/> </a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);"><img src="/static/images/school_03.png" alt="名校Logo"/> </a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);"><img src="/static/images/school_04.png" alt="名校Logo"/> </a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);"><img src="/static/images/school_05.png" alt="名校Logo"/> </a></li>
+        </ul>
+    </div>
+    <p class="kvBtn" style="margin: 55px 0 0 0;"><a onclick="open_qq()" href="javascript:void(0);" class="kvBtn02">了解无压力拿名校本科</a></p>
+</div>
+<div class="wrap wrap_bg05" style="padding-bottom: 35px">
+    <div class="contain">
+        <img src="/static/images/kv_03.jpg" />
+        <ul class="iconList">
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a1"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a2"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a3"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a4"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a5"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a6"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a7"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a8"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a9"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a10"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a11"></a></li>
+            <li><a onclick="open_qq()" href="javascript:void(0);" class="a12"></a></li>
+        </ul>
+    </div>
+    <div class="contain inputBox">
+        <div class="inputTitle">
+        </div>
+        <div class="input">
+            <form action="http://www.xsjedu.org/Orders/CoursesSave.asp" method="post" enctype="application/x-www-form-urlencoded" name="frm" id="frm"  onSubmit="return CheckForm();">
+                <p><input type="text" id="Orders_Name" name="Orders_Name" placeholder="您的姓名"/></p>
+
+                <p><input type="text" id="Orders_Tel" name="Orders_Tel" placeholder="您的联系电话"/></p>
+
+                <p><input type="text" name="Orders_Remarks" placeholder="咨询详情描述" class="describe"/></p>
+
+                <p><input type="submit" value="提交" class="submit" id="btn_submit">
+                    <input type="hidden" name="City_id" value="47" />
+                    <input type="hidden" name="Source_id" value="451" />
+                    <input type="hidden" name="Language_id" value="40" /></p>
+            </form>
+
+        </div>
+    </div>
+</div>
+<div class="wrap wrap_bg04" style="padding-top: 35px">
+    <div class="contain"><img src="/static/images/kv_04.jpg"></div>
+    <div class="contain " style="background-color: #f1f1f1">
+        <div class="sgBox">
+            <div class="sgTitle"></div>
+            <div class="sg"><span><a onclick="open_qq()" href="javascript:void(0);">黄浦区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">卢湾区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">静安区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">徐汇区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">长宁区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">虹口区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">闸北区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">普陀区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">杨浦区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);" style="padding: 7px 15px">浦东新区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">宝山区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">金山区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">南汇区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">奉贤区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">松江区</a></span>
+                <span><a onclick="open_qq()" href="javascript:void(0);">闵行区</a></span></div>
+        </div>
+        <p class="kvBtn" style="margin: 55px 0 0 0; "><a onclick="open_qq()" href="javascript:void(0);" class="kvBtn02">了解快速拿名校本科</a></p>
+    </div>
+</div>
+<div class=" wrap wrap_bg05 " style="padding-top: 35px">
+    <div class="contain" ><img src="/static/images/kv_05.jpg" alt=""/></div>
+
+    <p class="kvBtn" style="margin: 35px 0 0 0;background-color: #f8f8f8 "><a onclick="open_qq()" href="javascript:void(0);" class=" kvBtn03">了解居住证本科积分</a></p>
+</div>
+<div class="wrap wrap_images">
+    <div class="contain" style="background-color: transparent">
+        <img src="/static/images/kv_06.jpg" alt=""/>
+        <p class="kvBtn" style="margin: 55px 0 0 0;"><a onclick="open_qq()" href="javascript:void(0);"  class=" kvBtn02">了解快速拿名校本科</a></p>
+        <div class="sg_hover">
+            <ul>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i01"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i02"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i03"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i04"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i05"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i06"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i07"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i08"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i09"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i10"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i11"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i12"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i13"></a></li>
+                <li><a onclick="open_qq()" href="javascript:void(0);" class="sg_i14"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class=" wrap wrap_bg05 ">
+    <div class="contain" ><img src="/static/images/kv_07.jpg" alt=""/></div>
+    <div style="POSITION: relative; BACKGROUND: url(/static/images/time2.jpg) no-repeat; HEIGHT: 173px; width:980px; margin:0 auto;  background-color: #f8f8f8 ">
+        <div style="POSITION: absolute; TOP: 13px; LEFT: 150px; height: 103px; width: 732px;  background-color:transparent"><span
+                style=" background-color:#f8f8f8;TEXT-ALIGN: center; LINE-HEIGHT: 110px; WIDTH: 133px; LETTER-SPACING: 6px; margin-right: 43px; FONT-FAMILY: &#39;幼圆&#39;; FLOAT: left; HEIGHT: 110px; COLOR: #bb0e39; FONT-SIZE: 110px; FONT-WEIGHT: normal"
+                id="day">02</span> <span
+                style="background-color:#f8f8f8;TEXT-ALIGN: center; LINE-HEIGHT: 110px; WIDTH: 143px; LETTER-SPACING: 6px;  margin-right: 44px; FONT-FAMILY: &#39;幼圆&#39;; FLOAT: left; HEIGHT: 110px; COLOR: #bb0e39; FONT-SIZE: 110px; FONT-WEIGHT: normal"
+                id="hour">15</span> <span
+                style="background-color:#f8f8f8; TEXT-ALIGN: center; LINE-HEIGHT: 110px; WIDTH: 143px; LETTER-SPACING: 6px;  margin-right: 44px; FONT-FAMILY: &#39;幼圆&#39;; FLOAT: left; HEIGHT: 110px; COLOR: #bb0e39; FONT-SIZE: 110px; FONT-WEIGHT: normal"
+                id="sec">17</span> <span
+                style="background-color:#f8f8f8; TEXT-ALIGN: center; LINE-HEIGHT: 110px; WIDTH: 170px; LETTER-SPACING: 6px;   FONT-FAMILY: &#39;幼圆&#39;; FLOAT: left; HEIGHT: 110px; COLOR: #bb0e39; FONT-SIZE: 110px; FONT-WEIGHT: normal"
+                id="minisec">408</span></div>
+        <script type="text/javascript">
+            //本周结束日期
+            var now = new Date();
+            var start = new Date();
+            var end = new Date();
+
+            var n = now.getDay();
+
+            end.setDate(now.getDate()+7);
+
+            var fnTimeCountDown = function (d, o) {
+                var f = {
+                    zero: function (n) {
+                        var n = parseInt(n, 10);
+                        if (n > 0) {
+                            if (n <= 9) {
+                                n = "0" + n;
+                            }
+                            return String(n);
+                        } else {
+                            return "00";
+                        }
+                    },
+                    dv: function () {
+                        d = end || Date.UTC(2050, 0, 1); //如果未定义时间，则我们设定倒计时日期是2050年1月1日
+                        var future = new Date(d), now = new Date();
+                        //现在将来秒差值
+                        var dur = Math.round((future.getTime() - now.getTime()) / 1000) + future.getTimezoneOffset() * 60,
+                                dur_minisec = (Math.random()) * 1000, pms = {
+                                    minisec: "000",
+                                    sec: "00",
+                                    mini: "00",
+                                    hour: "00",
+                                    day: "00",
+                                    month: "00",
+                                    year: "0"
+                                };
+                        if (dur > 0) {
+                            pms.minisec = f.zero(dur_minisec);
+                            pms.sec = f.zero(dur % 60);
+                            pms.mini = Math.floor((dur / 60)) > 0 ? f.zero(Math.floor((dur / 60)) % 60) : "00";
+                            pms.hour = Math.floor((dur / 3600)) > 0 ? f.zero(Math.floor((dur / 3600)) % 24) : "00";
+                            pms.day = Math.floor((dur / 86400)) > 0 ? f.zero(Math.floor((dur / 86400)) % 30) : "00";
+                            //月份，以实际平均每月秒数计算
+                            pms.month = Math.floor((dur / 2629744)) > 0 ? f.zero(Math.floor((dur / 2629744)) % 12) : "00";
+                            //年份，按按回归年365天5时48分46秒算
+                            pms.year = Math.floor((dur / 31556926)) > 0 ? Math.floor((dur / 31556926)) : "0";
+                        }
+                        return pms;
+                    },
+                    ui: function () {
+                        if (o.minisec) {
+                            o.minisec.innerHTML = f.dv().minisec;
+                        }
+                        if (o.sec) {
+                            o.sec.innerHTML = f.dv().sec;
+                        }
+                        if (o.mini) {
+                            o.mini.innerHTML = f.dv().mini;
+                        }
+                        if (o.hour) {
+                            o.hour.innerHTML = f.dv().hour;
+                        }
+                        if (o.day) {
+                            o.day.innerHTML = f.dv().day;
+                        }
+                        if (o.month) {
+                            o.month.innerHTML = f.dv().month;
+                        }
+                        if (o.year) {
+                            o.year.innerHTML = f.dv().year;
+                        }
+                        setTimeout(f.ui, 1);
+                    }
+                };
+                f.ui();
+            };
+
+            var zxx = {
+                $: function (id) {
+                    return document.getElementById(id);
+                },
+                futureDate: Date.UTC(end.getFullYear(), end.getMonth() + 1, end.getDate(), 12),
+                obj: function () {
+                    return {
+                        minisec: zxx.$("minisec"),
+                        sec: zxx.$("sec"),
+                        mini: zxx.$("mini"),
+                        hour: zxx.$("hour"),
+                        day: zxx.$("day"),
+                        month: zxx.$("month"),
+                        year: zxx.$("year")
+                    }
+                }
+            };
+
+            fnTimeCountDown(zxx.futureDate, zxx.obj());
+        </script>
+
+    </div>
+</div>
+<div class="wrap wrap_bg05">
+    <div class="contain" style="background-color: #f8f8f8">
+        <p class="kvBtn" style="margin: 70px 0 0 0; "><a onclick="open_qq()" href="javascript:void(0);" class=" kvBtn03">最快时间拿名校本科学历</a></p>
+    </div>
+</div>
+<div class="wrap wrap_bg06">
+    <div class="wrap_images02"></div>
+    <div class="bg_images03"></div>
+</div>
+<div class="wrap wrap_images04">
+    <img src="/static/images/image_bg04.jpg" alt="" style="max-width:1300px"/>
+    <img src="/static/images/bg_text.jpg" alt="" class="bg_text"/>
+</div>
+<div class="wrap wrap_02">
+    <div class="contain foot">
+        <div class="foot_code">
+            <div><img src="/static/images/code_01.png"></div>
+            <div><img src="/static/images/code_02.png"></div></div>
+        <dl class="clearfix">
+
+            <dd id="footHelp">
+                <strong><i></i><a href="javascript:void(0);" onclick="open_qq()">客服中心</a></strong>
+                <span class="clearfix"><a href="javascript:void(0);" onclick="open_qq()"><em>17898837879</em>（免长途费）</a></span>
+                <span class="clearfix"><a href="javascript:void(0);" onclick="open_qq()"><div class="fIcon_01"></div>邮箱：Service@neworldonline.org</a></span>
+                <span class="clearfix"><a href="#" target="_blank"><div class="fIcon_02"></div>新浪微博：weibo.com/neworldonline</a></span>
+                <span class="clearfix"><a href="javascript:void(0);" onclick="open_qq()"><div class="fIcon_04"></div>在线客服（每日9:00-24:00）</a></span>
+            </dd>
+            <dd>
+                <strong><a href="javascript:void(0);"onclick="open_qq()">关于课程</a></strong>
+                <span><a href="javascript:void(0);" onclick="open_qq()">成人自考</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">成人高考</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">远程教育</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">网络教育</a></span>
+            </dd>
+            <dd>
+                <strong style="visibility: hidden" ><a href="javascript:void(0);" onclick="open_qq()">关于课程</a></strong>
+                <span><a href="javascript:void(0);" onclick="open_qq()">日语培训</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">英语培训</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">法语培训</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">德语培训</a></span>
+            </dd>
+            <dd>
+                <strong><a href="javascript:void(0);" onclick="open_qq()">嵩博集团</a></strong>
+                <span><a href="javascript:void(0);" onclick="open_qq()">关于我们</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">学校荣誉</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">联系我们</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">友情链接</a></span>
+                <span><a href="javascript:void(0);" onclick="open_qq()">招聘贤才</a></span>
+            </dd>
+        </dl>
+    </div>
+</div>
+Copyright @2016 上海嵩博教育科技有限公司 版权所有All rights reserved 沪ICP备08018177号
+<div id="doyoo_panel" class="doyoo_pan_icon" style="position: fixed; top: 150px; right: 5px; width: 125px; height: 356px;">
+    <div class="doyoo_pan_icon_inner" id="looyu_dom_0" style="width: 125px; float: right; background-image: url(&quot;/static/images/zx1.png&quot;);">
+        <a href="javascript:;" id="looyu_dom_1" style="display:block;width:100%;height:100%;">&nbsp;</a>
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="/static/css/oms.css">
+<script src="/static/js/common.js"></script>
